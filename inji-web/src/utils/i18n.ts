@@ -7,6 +7,8 @@ import hi from '../locales/hi.json';
 import kn from '../locales/kn.json';
 import ar from '../locales/ar.json';
 import pt from '../locales/pt.json';
+import es from '../locales/es.json';
+import si from '../locales/si.json';
 import {AppStorage} from "./AppStorage";
 import {
     CredentialTypeDisplayArrayObject,
@@ -14,7 +16,7 @@ import {
     LanguageObject
 } from "../types/data";
 
-const resources = {en, ta, kn, hi, fr, ar, pt};
+const resources = {en, ta, kn, hi, fr, ar, pt, es, si};
 
 export const LanguagesSupported: LanguageObject[] = [
     {label: "English", value: 'en'},
@@ -23,7 +25,9 @@ export const LanguagesSupported: LanguageObject[] = [
     {label: "हिंदी", value: 'hi', englishName: "Hindi"},
     {label: "Français", value: 'fr', englishName: "French"},
     {label: "عربي", value: 'ar', englishName: "Arabic"},
-    {label: "Português", value:'pt', englishName: "Portuguese"}
+    {label: "Português", value:'pt', englishName: "Portuguese"},
+    {label: "Español", value: 'es', englishName: "Spanish"},
+    {label: "සිංහල", value: 'si', englishName: "Sinhala"}
 ]
 
 export const defaultLanguage = window._env_.DEFAULT_LANG;

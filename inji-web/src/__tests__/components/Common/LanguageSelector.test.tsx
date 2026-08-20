@@ -30,4 +30,15 @@ describe("Testing the Functionality of Language Selector", () => {
         expect(screen.queryByTestId("Language-Selector-Modal")).not.toBeInTheDocument();
         expect(screen.getByTestId("Language-Selector-Button")).toHaveTextContent("Français");
     });
+
+    test.each([
+        ['es', 'Español'],
+        ['si', 'සිංහල']
+    ])('Check if %s is offered in the modal and can be selected', (value, label) => {
+        renderWithProvider(<LanguageSelector />);
+        fireEvent.click(screen.getByTestId("Language-Selector-Button"));
+        expect(screen.getByTestId(`Language-Selector-Modal-Item-${value}`)).toHaveTextContent(label);
+        fireEvent.click(screen.getByTestId(`Language-Selector-Modal-Item-${value}`));
+        expect(screen.getByTestId("Language-Selector-Button")).toHaveTextContent(label);
+    });
 });

@@ -1,0 +1,754 @@
+{
+  "PageTemplate": {
+    "Header": {
+      "home": "Inicio",
+      "faq": "Preguntas frecuentes",
+      "login": "Iniciar sesión",
+      "logout": "Cerrar sesión"
+    },
+    "Footer": {
+      "product": "Un producto de MOSIP",
+      "copyRight": "© 2024 MOSIP. Todos los derechos reservados."
+    }
+  },
+  "HomePage": {
+    "Banner": {
+      "heading": "Accede y gestiona tus credenciales digitales sin esfuerzo",
+      "description": "Haz que tus datos sean portables con confianza. Gestiona de forma segura tus documentos digitales con nuestra cartera web fácil de usar.",
+      "buttontext": "Comenzar"
+    },
+    "Features": {
+      "heading": "Funciones de Inji Wallet",
+      "description1": "Gestión fluida y segura de credenciales verificables",
+      "description2": "para interacciones digitales de confianza."
+    },
+    "FeatureItem1": {
+      "heading": "Accede a tus credenciales dondequiera que las necesites",
+      "item1": "Credenciales simplificadas",
+      "description1": "Guarda todos tus documentos esenciales",
+      "item2": "Se acabó el papeleo, todo en un solo lugar",
+      "description2": "Descarga, guarda y recupera tus documentos sin esfuerzo. Todo son ventajas."
+    },
+    "FeatureItem2": {
+      "heading": "Tus documentos descargados en segundos",
+      "item1": "Descarga con confianza",
+      "description1": "Guarda tus documentos importantes al instante",
+      "item2": "Sano y salvo",
+      "description2": "Descarga documentos de identidad, permisos y mucho más en un único lugar seguro."
+    },
+    "FeatureItem3": {
+      "heading": "Compartir es fácil",
+      "item1": "Comparte con un código QR",
+      "description1": "Comparte tus documentos de identidad y certificados sobre la marcha. Solo tienes que mostrar el código QR de tu documento para que se escanee y se comparta.",
+      "item2": "Preparados, listos, a compartir",
+      "description2": "Código QR verificado en tiempo real."
+    },
+    "FeatureItem4": {
+      "heading": "Seguro y privado",
+      "item1": "Tus credenciales, protegidas",
+      "description1": "Tus datos se mantienen privados gracias al mecanismo de seguridad integrado.",
+      "item2": "Quédate tranquilo",
+      "description2": "Mantén tus credenciales a salvo para que puedas centrarte en lo que importa."
+    },
+    "FeatureItem5": {
+      "heading": "Mayor acceso y compatibilidad",
+      "item1": "Disponible en tu navegador favorito",
+      "description1": "Inji Wallet funciona con Chrome, Safari, Firefox y Edge.",
+      "item2": "Siempre a tu alcance",
+      "description2": "La comodidad se une a la accesibilidad estés donde estés, para que tus documentos estén siempre a tu alcance."
+    },
+    "QuickTip": {
+      "heading": "Consejos rápidos para descargar tus credenciales al instante",
+      "toastText": "Próximamente",
+      "buttontext": "Más información"
+    },
+    "Login": {
+      "loginTitle": "Iniciar sesión",
+      "loginDescription": "Inicia sesión con tu cuenta o continúa como invitado para acceder a tus credenciales.",
+      "loginNote": "Algunas funciones pueden estar limitadas en el modo invitado.",
+      "loginDescriptionOVP": "Continúa para compartir credenciales.",
+      "loginNoteOVP": "Inicia sesión para compartir tus credenciales con el servicio al que intentas acceder.",
+      "loggingIn": "Iniciando sesión",
+      "loginGoogle": "Continuar con Google",
+      "loginGuest": "Continuar como invitado"
+    },
+    "LoginFailedModal": {
+      "failureMessage": "Error de inicio de sesión",
+      "failureDescription": "Tu intento de inicio de sesión ha fallado. Comprueba tus credenciales e inténtalo de nuevo",
+      "retry": "Reintentar"
+    },
+    "ThirdPartyRedirectModal": {
+      "title": "¡Aviso importante!",
+      "description": "Los cambios de idioma que hayas realizado aquí no se trasladarán a la plataforma externa de Google durante el proceso de autenticación e inicio de sesión.",
+      "continue": "Continuar"
+    },
+    "Tour": {
+      "counter": "{{current}} de {{total}}",
+      "skip": "Omitir",
+      "next": "Siguiente",
+      "finish": "Finalizar",
+      "previous": "Anterior",
+      "steps": {
+        "language": {
+          "title": "Configuración de idioma",
+          "subTitle": "Selecciona el idioma que prefieras para tu experiencia.",
+          "heading": "¿Qué es la configuración de idioma?",
+          "description": "La configuración de idioma te permite personalizar la interfaz para mostrar el contenido en el idioma que prefieras. Este ajuste se aplicará a toda tu experiencia en esta plataforma."
+        },
+        "google": {
+          "title": "Iniciar sesión con una cuenta de Google",
+          "description": "Al hacer clic en «Continuar con Google», se te redirigirá a la plataforma de autenticación de Google para acceder con tu cuenta de Google. Esto ofrece una forma segura y cómoda de acceder a tu cartera."
+        },
+        "guest": {
+          "title": "Iniciar sesión como invitado",
+          "description": "Al hacer clic en «Continuar como invitado», puedes acceder a la cartera sin iniciar sesión. Esta opción es ideal si quieres explorar las funciones sin crear una cuenta."
+        }
+      }
+    }
+  },
+  "Layout": {
+    "VCDownload": {
+      "success": "Tu {{cardType}} se ha descargado correctamente.",
+      "error": "¡Vaya! Algo ha salido mal. No se ha podido descargar tu {{cardType}}. Vuelve a seleccionar el emisor e inténtalo de nuevo."
+    }
+  },
+  "PasscodePage": {
+    "submit": "Enviar",
+    "submitting": "Enviando",
+    "setPasscode": "Establece tu código de acceso para comenzar",
+    "setPasscodeDescription": "Recuerda tu código de acceso o guárdalo en un lugar seguro. Lo necesitarás cada vez que accedas a la cartera.",
+    "enterPasscode": "Introduce tu código de acceso para continuar",
+    "enterPasscodeDescription": "Usa el mismo código de acceso que estableciste antes para acceder a tu cuenta o cartera.",
+    "enterPasscodeLabel": "Introducir código de acceso",
+    "confirmPasscodeLabel": "Confirmar código de acceso",
+    "forgotPasscode": "He olvidado el código",
+    "passcodeWarning": "Asegúrate de recordar la contraseña para futuros inicios de sesión",
+    "error": {
+      "walletNotFoundError": "Cartera no encontrada",
+      "passcodeLengthError": "Introduce 6 dígitos en el PIN",
+      "passcodeMismatchError": "Los códigos de acceso no coinciden. Asegúrate de que ambos campos sean exactamente iguales. Vuelve a introducirlos e inténtalo de nuevo.",
+      "createWalletError": "No se ha podido crear la cartera",
+      "incorrectPasscodeError": "El código de acceso no parece correcto. Inténtalo de nuevo o pulsa «He olvidado el código» si necesitas ayuda para restablecerlo",
+      "fetchWalletsError": "Error al obtener las carteras",
+      "walletStatus": {
+        "temporarily_locked": "Has alcanzado el número máximo de intentos. Tu cartera está bloqueada temporalmente. Inténtalo de nuevo más tarde",
+        "permanently_locked": "Tu cartera se ha bloqueado permanentemente debido a varios intentos fallidos. Pulsa «He olvidado el código» para restablecer tu cartera y continuar",
+        "last_attempt_before_lockout": "Código de acceso incorrecto. Te queda un último intento antes de que tu cartera se bloquee permanentemente"
+      }
+    }
+  },
+  "ResetPasscodePage": {
+    "title": "¿Has olvidado tu código de acceso?",
+    "subTitle": "Restablece tu cartera para recuperar el acceso y volver a descargar tus tarjetas.",
+    "resetInstruction": {
+      "question": "¿Qué ocurre cuando olvidas tu código de acceso?",
+      "info1": {
+        "message": "Tu cartera se <strong>{{highlighter}}</strong> de forma segura.",
+        "highlighter": "restablecerá"
+      },
+      "info2": {
+        "message": "Todas las <strong>{{highlighter}}</strong> de tu cartera.",
+        "highlighter": "tarjetas guardadas anteriormente se eliminarán"
+      },
+      "info3": {
+        "message": "Te guiaremos para <strong>{{highlighter}}</strong>.",
+        "highlighter": "establecer un nuevo código de acceso"
+      },
+      "info4": {
+        "message": "Después podrás <strong>{{highlighter}}</strong> desde la fuente o los emisores originales.",
+        "highlighter": "volver a descargar las tarjetas"
+      },
+      "info5": {
+        "message": "Así tu información se mantiene <strong>{{highlighter}}</strong>, incluso si pierdes o compartes tu dispositivo o cartera.",
+        "highlighter": "protegida"
+      }
+    },
+    "setNewPasscode": "Establecer nuevo código de acceso",
+    "resetFailure": "Se ha producido un error al restablecer tu cartera. Inténtalo de nuevo en unos momentos."
+  },
+  "IssuersPage": {
+    "Intro": {
+      "title": "Accede a tus credenciales verificables",
+      "title2": "¡con facilidad!",
+      "subTitle": "Descarga y comparte tus credenciales de forma segura al instante.",
+      "searchText": "Buscar emisores por nombre"
+    },
+    "emptyContainerContent": "No se han encontrado emisores.",
+    "emptyContainerSubContent": "Actualiza la ventana del navegador o inténtalo de nuevo más tarde",
+    "containerHeading": "Lista de emisores",
+    "containerSubHeading": "Busca tu emisor de confianza y elige un tipo de credencial en el siguiente paso.",
+    "back": "Atrás",
+    "heroSubtitle1": "Busca tu tarjeta y",
+    "heroSubtitle2": "elige las tarjetas",
+    "heroSubtitle3": "que quieras descargar en el siguiente paso.",
+    "searchPlaceholder": "Buscar emisor (p. ej., Nombre 1, Nombre 2, Nombre 3)",
+    "errorContent": "El servicio no está disponible en este momento. Inténtalo de nuevo más tarde.",
+    "searchIssuer": {
+      "helpText": {
+        "info": "Busca por nombre de emisor usando solo letras, números, guiones (-), guiones bajos (_) o paréntesis ( ).",
+        "error": "Introduce un nombre de emisor válido. Solo se permiten letras, números, espacios, guiones (-), guiones bajos (_) y paréntesis ( ). No se admiten caracteres especiales."
+      }
+    }
+  },
+  "CredentialsPage": {
+    "searchText": "Buscar tipo de credencial",
+    "emptyContainerContent": "No se han encontrado credenciales.",
+    "emptyContainerSubContent": "Actualiza la ventana del navegador o inténtalo de nuevo más tarde",
+    "containerHeading": "Lista de tipos de credenciales",
+    "containerSubHeading": "Elige una credencial y confirma tu identidad en el siguiente paso.",
+    "errorContent": "El servicio no está disponible en este momento. Inténtalo de nuevo más tarde.",
+    "errors": {
+      "authorizationGrantTypeNotSupportedByWallet": {
+        "code": "Error de autorización: tipo de concesión no admitido",
+        "message": "Gracias por tu paciencia. Estamos teniendo dificultades técnicas en este momento. Inténtalo de nuevo más tarde o ponte en contacto con el administrador para obtener ayuda."
+      }
+    }
+  },
+  "CredentialTypesPage": {
+    "download": {
+      "error": {
+        "header": "Error de descarga",
+        "subHeader": "No se ha podido descargar la tarjeta. Pulsa el botón «Ir al inicio» para iniciar el proceso."
+      },
+      "loading": {
+        "header": "Descargando credencial",
+        "subHeader": "Tu tarjeta seguirá descargándose aunque actualices o cambies de pantalla. Puedes descargar una tarjeta cada vez. Aparecerá en Tarjetas guardadas cuando termine."
+      }
+    }
+  },
+  "RedirectionPage": {
+    "navigateButton": "Ir al inicio",
+    "loading": {
+      "title": "Descarga en curso...",
+      "subTitle": "Espera un momento. Estamos convirtiendo tus credenciales verificables a PDF"
+    },
+    "success": {
+      "title": "¡Listo!",
+      "subTitle": "Consulta tu carpeta de descargas."
+    },
+    "error": {
+      "invalidSession": {
+        "title": "Sesión no válida",
+        "subTitle": "la sesión no es válida o ya ha finalizado"
+      },
+      "verification": {
+        "errMissingIssuanceDate": {
+          "title": "Fecha de emisión no válida",
+          "subTitle": "La fecha de emisión no es válida o está en el futuro. Comprueba que la fecha sea correcta."
+        },
+        "errInvalidIssuanceDate": {
+          "title": "Fecha de emisión no válida",
+          "subTitle": "La fecha de emisión no es válida o está en el futuro. Comprueba que la fecha sea correcta."
+        },
+        "errIssuanceDateIsFutureDate": {
+          "title": "Fecha de emisión no válida",
+          "subTitle": "La fecha de emisión no es válida o está en el futuro. Comprueba que la fecha sea correcta."
+        },
+        "errInvalidExpirationDate": {
+          "title": "Fecha de caducidad no válida",
+          "subTitle": "La fecha de caducidad no es válida. Comprueba que la fecha sea correcta"
+        },
+        "errVcExpired": {
+          "title": "Fecha de caducidad no válida",
+          "subTitle": "La fecha de caducidad no es válida. Comprueba que la fecha sea correcta"
+        },
+        "errInvalidValidFrom": {
+          "title": "Fecha de inicio no válida",
+          "subTitle": "La fecha no es válida o está en el futuro. Comprueba que la fecha sea correcta."
+        },
+        "errValidFromIsFutureDate": {
+          "title": "Fecha de inicio no válida",
+          "subTitle": "La fecha no es válida o está en el futuro. Comprueba que la fecha sea correcta."
+        },
+        "errInvalidValidUntil": {
+          "title": "Fecha de fin no válida",
+          "subTitle": "La fecha no es válida. Comprueba que la fecha sea correcta"
+        }
+      },
+      "generic": {
+        "title": "Se ha producido un error",
+        "subTitle": "Debido a un error técnico, no hemos podido descargar la tarjeta"
+      }
+    }
+  },
+  "AuthorizationPage": {
+    "error": {
+      "code": {
+        "invalid_redirect_uri": "¡Acceso denegado!",
+        "invalid_client": "¡Acceso denegado!"
+      },
+      "message": {
+        "invalid_redirect_uri": "No se pueden compartir las credenciales porque no hemos podido identificar quién las ha solicitado. Ponte en contacto con el administrador para obtener ayuda.",
+        "invalid_client": "No se pueden compartir las credenciales porque no hemos podido identificar quién las ha solicitado. Ponte en contacto con el administrador para obtener ayuda."
+      }
+    }
+  },
+  "PageNotFound": {
+    "navigateButton": "Ir al inicio",
+    "heading": "Se ha producido un error",
+    "subHeading": "No se ha encontrado la URL solicitada {{pathname}} en este servidor."
+  },
+  "FAQPage": {
+    "title": "Preguntas frecuentes"
+  },
+  "FAQDropdown": {
+    "heading": "Preguntas frecuentes",
+    "item1": "Preguntas frecuentes"
+  },
+  "FAQ": {
+    "item1": {
+      "title": "¿Quiénes son los emisores?",
+      "description1": "Los emisores son organismos gubernamentales o entidades de confianza del gobierno, encargados de proporcionar credenciales verificables en formato PDF a los residentes que las soliciten."
+    },
+    "item2": {
+      "title": "¿Qué son las credenciales verificables?",
+      "description1": "Las credenciales verificables son documentos digitales que ayudan a los usuarios a compartir información, como su identidad o sus titulaciones, con el proveedor de servicios, y que pueden verificarse al instante. Las emiten entidades de confianza y su autenticidad puede comprobarse criptográficamente. Estas credenciales agilizan los procesos de verificación de identidad."
+    },
+    "item3": {
+      "title": "¿Cómo puedo descargar una credencial en Inji Wallet?",
+      "description1": "Paso 1: Busca y elige un emisor en la página de inicio y selecciona un tipo de credencial.",
+      "description2": "Paso 2: En la página de autenticación, proporciona los datos necesarios.",
+      "description3": "Paso 3: La credencial verificable se descargará en el sistema en formato PDF."
+    },
+    "item4": {
+      "title": "¿Qué datos debo proporcionar para descargar mi credencial?",
+      "description1": "El emisor de la credencial habrá proporcionado datos como el UIN/VID en el caso del documento nacional de identidad de MOSIP, o el número de póliza, el nombre y la fecha de nacimiento en el caso de una tarjeta de seguro. Esta información debe introducirse en el sistema de autenticación para poder realizar la descarga."
+    },
+    "item5": {
+      "title": "¿Dónde puedo encontrar mi credencial?",
+      "description1": "La credencial verificable se descargará en la carpeta de descargas de tu sistema."
+    },
+    "item6": {
+      "title": "¿Qué datos aparecen en la credencial en PDF?",
+      "description1": "En el PDF se mostrarán los datos recogidos durante el proceso de registro. Actualmente, en el caso de uso de seguros, se pueden encontrar datos de la póliza como el nombre y la fecha de nacimiento."
+    },
+    "item7": {
+      "title": "¿Por qué no encuentro la lista de emisores?",
+      "description1": "Las posibles razones son:",
+      "description2": "1. Puede haber errores técnicos que dejen el servicio temporalmente no disponible e impidan acceder a la lista de emisores.",
+      "description3": "2. No se ha configurado ningún emisor.",
+      "description4": "En cualquiera de los dos casos, ponte en contacto con tu equipo técnico para resolver el problema."
+    },
+    "item8": {
+      "title": "¿Qué ocurre cuando genero una credencial verificable (VC) en la interfaz web de Inji Wallet?",
+      "description1": "1. Seleccionas un emisor y el tipo de credencial.",
+      "description2": "2. Se te redirige a la página de inicio de sesión del emisor para autenticarte.",
+      "description3": "3. Tras iniciar sesión, el emisor proporciona la VC, que se almacena de forma segura como JSON mediante Durian. ",
+      "description4": "4. Se genera un PDF con los datos de la VC y un código QR.",
+      "description5": "5. El código QR enlaza con la URL de almacenamiento de la VC para compartirla fácilmente."
+    },
+    "item9": {
+      "title": "¿Cuál es la función del código QR en el PDF de la credencial?",
+      "description1": "El código QR del PDF enlaza con la URL segura de almacenamiento de la VC, lo que facilita escanear y recuperar credenciales sin necesidad de datos densos."
+    },
+    "item10": {
+      "title": "¿Cómo garantiza la interfaz web de Inji Wallet que mi VC se almacene de forma segura?",
+      "description1": "Se integra con el servicio Data Share (Durian) de la plataforma de identidad de MOSIP, almacenando la VC como un objeto JSON cuyo acceso está protegido y limitado a verificadores autorizados."
+    },
+    "item11": {
+      "title": "¿Cómo funciona la función de compartir en línea con Inji Verify?",
+      "description1": "1. El PDF de la VC contiene un código QR.",
+      "description2": "2. El PDF se puede imprimir o guardar en un teléfono. ",
+      "description3": "3. El verificador (p. ej., Inji Verify) escanea el código QR. ",
+      "description4": "4. Inji Wallet autoriza y comparte la VC con el verificador."
+    },
+    "item12": {
+      "title": "¿Por qué se incrusta una URL en el código QR en lugar de todos los datos de la VC?",
+      "description1": "Incrustar una URL reduce la densidad del código QR para facilitar el escaneo, lo que permite una verificación eficiente entre dispositivos o de forma remota."
+    },
+    "item13": {
+      "title": "¿Puedo compartir mi VC tanto en línea como sin conexión?",
+      "description1": "1. En línea: el verificador puede escanear desde un PDF o desde la pantalla del teléfono, e Inji Wallet autoriza y comparte la VC. ",
+      "description2": "2. Sin conexión: se puede presentar el PDF impreso para escanearlo y recuperar la VC."
+    },
+    "item14": {
+      "title": "¿Cómo verifica y autoriza Inji Wallet al verificador al compartir en línea?",
+      "description1": "Las credenciales del verificador se comprueban en una lista interna. Si está autorizado, Inji Wallet con interfaz web devuelve la VC al verificador de forma segura mediante un vp_token."
+    },
+    "item15": {
+      "title": "¿Qué es OpenID4VP y cómo se usa en Inji Wallet?",
+      "description1": "El estándar OpenID4VP (OpenID for Verifiable Presentations) permite compartir VC de forma segura. Inji Wallet genera un código QR para el almacenamiento de la VC, lo que permite a verificadores como Inji Verify solicitar y recibir VC de forma segura."
+    },
+    "item16": {
+      "title": "¿Cómo sé que mi VC se ha compartido de forma segura con Inji Wallet?",
+      "description1": "Después de que el verificador escanee el código QR e Inji Wallet lo autorice, la VC se proporciona de forma segura al verificador, que a continuación la valida y la confirma."
+    },
+    "item17": {
+      "title": "¿Qué ocurre si el código QR se escanea en un dispositivo distinto de aquel en el que se generó la VC?",
+      "description1": "Se admite el uso compartido entre dispositivos. El verificador puede escanear desde cualquier copia del PDF de la VC, e Inji Wallet verifica y comparte la VC de forma segura."
+    },
+    "item18": {
+      "title": "¿Inji Wallet admite distintos formatos de código QR?",
+      "description1": "Sí. La generación basada en configuración permite que los códigos QR contengan: ",
+      "description2": "1. La URL al almacenamiento de la VC para compartirla fácilmente, o ",
+      "description3": "2. Todos los datos de la VC en JSON (formato más denso)."
+    },
+    "item19": {
+      "title": "¿Cómo gestiona Inji Wallet la verificación de credenciales después de compartirlas?",
+      "description1": "Tras compartirla, Inji Verify comprueba la autenticidad de la VC. Si es válida, el verificador confirma el estado de verificación de la credencial."
+    },
+    "item20": {
+      "title": "¿Qué tipo de emisores de credenciales se admiten?",
+      "description1": "Cualquier emisor que siga el protocolo OpenID4VCI puede considerarse de confianza en Inji Wallet. Estos emisores proporcionan los datos necesarios para emitir y descargar VC."
+    },
+    "item21": {
+      "title": "¿Dónde puedo encontrar información más detallada sobre las funciones incluidas en esta versión?",
+      "description1": "Consulta la <a href=\"https://docs.mosip.io/inji/inji-web/overview\" target=\"_blank\">documentación de Inji Wallet</a> para ver pasos detallados, descripciones generales del sistema y explicaciones de las nuevas funciones."
+    },
+    "item22": {
+      "title": "¿Cómo empiezo a usar la función de compartir en línea en Inji Wallet?",
+      "description1": "Accede a tus VC a través de la interfaz web de Inji Wallet, descárgalas y usa el código QR para compartir credenciales en persona o en línea con los verificadores. Encontrarás los detalles en la <a href=\"https://docs.mosip.io/inji/inji-web/functional-overview/end-user-guide\" target=\"_blank\"> guía del usuario </a> ."
+    },
+    "item23": {
+      "title": "¿Cómo puedo alternar entre VC incrustada y compartir en línea en Inji Wallet?",
+      "description1": "Configura qr_code_type en los ajustes del emisor de Mimoto: ",
+      "description2": "1. EmbeddedVC: incrusta la VC completa en formato JSON (código QR más denso) para su uso sin conexión.",
+      "description3": "2. OnlineSharing: genera un código QR con una URL al almacenamiento en línea de la VC, lo que facilita escanearla y compartirla en línea."
+    }
+  },
+  "DataShareExpiryModal": {
+    "title": "Validez del uso compartido",
+    "subTitle": "Da tu consentimiento para establecer una validez al compartir {{credentialName}}",
+    "content": {
+      "selectedDocument": "Documento seleccionado",
+      "consent": "Validez del consentimiento *",
+      "validityTimesHeader": "Número de veces",
+      "validityTimesOptions": {
+        "once": "Una vez",
+        "thrice": "Tres veces",
+        "noLimit": "Sin límite",
+        "custom": "Personalizado"
+      },
+      "validityDate": "Fecha"
+    },
+    "success": "Continuar",
+    "cancel": "Atrás",
+    "disclaimer": "Ten en cuenta que el código QR solo se puede compartir el número de veces que hayas elegido aquí. Para volver a usar el código QR, tendrás que descargar el PDF de nuevo.",
+    "toastText": "Próximamente"
+  },
+  "CustomExpiryModal": {
+    "title": "Introduce el número de veces que quieres usar esta credencial ",
+    "error": "Introduce un número de caducidad válido mayor que cero. El límite máximo es 50 para controlar los intentos de verificación.",
+    "metrics": "Veces",
+    "success": "Continuar",
+    "cancel": "Cancelar"
+  },
+  "ShareHandlerLoadingModal": {
+    "message": "Preparando tu presentación segura de credenciales..."
+  },
+  "CredentialShareSuccessModal": {
+    "title": "Credenciales compartidas",
+    "subtitle": "Compartidas correctamente con {{verifierName}}",
+    "cardsShared": "TARJETAS COMPARTIDAS ({{count}})",
+    "sharedTodayAt": "Hoy a las {{time}}",
+    "trustedLabel": "De confianza",
+    "redirectMessage": "Volviendo al verificador en {{count}} segundos..."
+  },
+  "User": {
+    "Home": {
+      "title": "Inicio",
+      "welcome": "Te damos la bienvenida",
+      "subtitle": "Accede a tus tarjetas verificables",
+      "subtitle2": "¡con facilidad!",
+      "addCard": "Añadir tarjeta",
+      "search": {
+        "placeholder": "Busca tus documentos por nombre",
+        "noResults": "Ninguna tarjeta coincide con tu búsqueda."
+      },
+      "emptyScreen": {
+        "title": "No hay tarjetas añadidas",
+        "message": "Añade tu primera tarjeta para empezar a usar tu cartera digital."
+      }
+    },
+    "ProfileDropdown": {
+      "profile": "Perfil",
+      "faq": "Preguntas frecuentes",
+      "logout": "Cerrar sesión"
+    },
+    "ProfilePage": {
+      "title": "Mi perfil",
+      "homeTitle": "Inicio",
+      "fullName": "Nombre completo",
+      "emailAddress": "Dirección de correo electrónico",
+      "error": {
+        "title": "Perfil no disponible",
+        "message": "No hemos podido cargar los datos de tu perfil debido a un problema técnico. Inténtalo de nuevo más tarde."
+      }
+    }
+  },
+  "StoredCards": {
+    "title": "Tarjetas guardadas",
+    "header": {
+      "addCards": "Añadir tarjetas"
+    },
+    "emptyScreen": {
+      "title": "¡No hay tarjetas guardadas!",
+      "actionText": "Todavía no has descargado ninguna tarjeta. Pulsa «Añadir tarjetas» para empezar."
+    },
+    "search": {
+      "placeholder": "Busca tus tarjetas por nombre",
+      "noResults": "Ninguna tarjeta coincide con tu búsqueda."
+    },
+    "cardView": {
+      "download": "Descargar",
+      "menu": {
+        "view": "Ver",
+        "delete": "Eliminar"
+      },
+      "error": {
+        "downloadError": "Error en la descarga. Vuelve a intentarlo.",
+        "deleteError": "No se ha podido eliminar. Inténtalo de nuevo."
+      },
+      "delete": {
+        "confirmation": {
+          "title": "¡Eliminar tarjeta!",
+          "message": "¿Seguro que quieres eliminar esta tarjeta?"
+        }
+      }
+    }
+  },
+  "Common": {
+    "home": "Inicio",
+    "goToHome": "Ir al inicio",
+    "tryAgain": "Inténtalo de nuevo",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "error": {
+      "internalServerError": {
+        "title": "Error del servidor",
+        "message": "Algo ha salido mal por nuestra parte. Inténtalo de nuevo más tarde."
+      },
+      "serviceUnavailable": {
+        "title": "Servicio no disponible",
+        "message": "Actualmente tenemos problemas para procesar tu solicitud. Inténtalo de nuevo más tarde"
+      },
+      "invalidWalletRequest": {
+        "title": "Algo ha salido mal",
+        "message": "No hemos podido verificar la información de tu cartera. Inténtalo de nuevo más tarde."
+      },
+      "invalidRequest": {
+        "title": "Error en la solicitud",
+        "message": "Tu solicitud contiene información no válida. Inténtalo de nuevo más tarde."
+      },
+      "unknownError": {
+        "title": "Algo ha salido mal",
+        "message": "Se ha producido un error inesperado. Actualiza la página o inténtalo de nuevo en unos momentos."
+      },
+      "networkError": {
+        "title": "Sin conexión a internet",
+        "message": "Comprueba tu conexión a internet e inténtalo de nuevo."
+      }
+    }
+  },
+  "VerifierTrustPage": {
+    "mainPage": {
+      "unknownVerifier": "Nombre del verificador",
+      "description": " Solicita acceso a tu(s) tarjeta(s)",
+      "descriptionSubtext": "Revisa la información solicitada y elige la(s) tarjeta(s) que quieres compartir. Solo se compartirá con el verificador la información seleccionada de las tarjetas que elijas.",
+      "trustedLabel": "De confianza",
+      "footerInfo": "Selecciona las credenciales que aparecen abajo para aprobar esta solicitud",
+      "addCards": "Añadir tarjetas",
+      "searchPlaceholder": "Busca tus documentos por nombre"
+    },
+    "modal": {
+      "title": "Nombre del verificador",
+      "description": "Asegúrate de reconocer a este verificador o de confiar en él. \nUna vez que confíes en este verificador:",
+      "benefitSaveSecurely": "Tu cartera recordará a este verificador como de confianza.",
+      "benefitAddToTrustedList": "Este verificador se añadirá a tu lista de confianza.",
+      "benefitSkipReviewFuture": "Las futuras solicitudes de verificación de este verificador se considerarán de confianza automáticamente.",
+      "trustButton": "Sí, confío en este verificador",
+      "notTrustButton": "No, no confío en este verificador",
+      "cancelButton": "Cancelar",
+      "infoTooltipButton": "¿Qué significa confiar?",
+      "infoTooltipText": "Confiar en un verificador le permite solicitar tus credenciales. Aun así, en el siguiente paso podrás elegir qué credenciales compartir."
+    },
+    "TrustRejectionModal": {
+      "title": "¿Seguro que no quieres confiar en este verificador?",
+      "description": "Esta solicitud no puede continuar si no confías en este verificador. Si no lo haces, la solicitud se detendrá y tendrás que iniciar una nueva solicitud con tu verificador.",
+      "confirmButton": "No confiar y cancelar",
+      "goBackButton": "Volver"
+    },
+    "UserAuthorizationPage": {
+      "validateVerifierError": "No se ha podido validar la solicitud del verificador. Inténtalo de nuevo.",
+      "invalidVerifierResponse": "Se ha recibido una respuesta del verificador no válida.",
+      "addTrustedVerifierError": "No se ha podido añadir el verificador a la lista de confianza."
+    },
+    "ErrorCard": {
+      "defaultTitle": "Algo ha salido mal",
+      "defaultDescription": "No hemos podido completar tu solicitud. Cierra e inténtalo de nuevo más tarde.",
+      "technicalTitle": "¡Vaya! Se ha producido un error.",
+      "technicalDescription": "Ha habido un problema técnico al procesar tu solicitud. Puedes volver a intentarlo en unos momentos.",
+      "closeButton": "Cerrar"
+    },
+    "RetryCard": {
+      "defaultTitle": "Algo ha salido mal",
+      "defaultDescription": "No hemos podido completar tu solicitud. Inténtalo de nuevo.",
+      "retryButton": "Reintentar"
+    },
+    "loadingCard": {
+      "title": "Obteniendo información del verificador...",
+      "subtitle": "Espera mientras verificamos la solicitud y preparamos tus credenciales."
+    },
+    "credentialTile": {
+      "unselectedTitle": "Selecciona la credencial que quieres compartir",
+      "selectedTitle": "Credencial seleccionada",
+      "shareCredentialsButton": "Confirmar y compartir",
+      "shareCredentialsDeclineButton": "Rechazar"
+    },
+    "consentRequiredModal": {
+      "title": "Consentimiento necesario",
+      "description": "Revisa tu selección antes de continuar.",
+      "credentialsTitle": "Tarjetas que se van a compartir ({{count}})",
+      "credentialsDescription": "Solo se compartirá con el verificador la información seleccionada de las tarjetas que elijas. No se compartirá ninguna información adicional.",
+      "consentButtonTitle": "Confirmar y compartir",
+      "backButtonTitle": "No, volver"
+    },
+    "leaveConfirmation": {
+      "title": "¿Seguro que quieres salir?",
+      "description": "Si sales de esta página, abandonarás el proceso de envío de tus tarjetas y podrías perder tu progreso.",
+      "confirmButton": "Sí, salir",
+      "cancelButton": "No, volver"
+    },
+    "dcql": {
+      "mandatorySection": "Obligatorio",
+      "optionalSection": "Opcional",
+      "mandatoryCards": "TARJETAS OBLIGATORIAS",
+      "optionalCards": "TARJETAS OPCIONALES",
+      "optionalAddOns": "COMPLEMENTOS OPCIONALES",
+      "required": "Obligatorio",
+      "multipleCards": "Varias tarjetas",
+      "allRequired": "Todas las tarjetas de esta opción son obligatorias",
+      "credentialsCount": "{{count}} credenciales",
+      "or": "O",
+      "instruction": "Selecciona una credencial de la lista para compartirla de forma segura con el verificador.",
+      "instructionSelectOne": "Selecciona una tarjeta entre las opciones disponibles.",
+      "instructionSelectAll": "Selecciona todas las tarjetas obligatorias para continuar.",
+      "instructionSelectCount": "Selecciona {{count}} tarjetas entre las opciones disponibles.",
+      "instructionOnePerSet": "Selecciona una tarjeta de cada grupo.",
+      "instructionComplex": "Sigue las instrucciones de selección para satisfacer la solicitud del verificador.",
+      "selectShareableFields": "Información necesaria",
+      "selectRequiredClaims": "Selecciona la información necesaria",
+      "viewCard": "Ver tarjeta",
+      "showAllCards": "Mostrar las {{count}} tarjetas",
+      "clearAll": "Borrar todo",
+      "unknownCredential": "Credencial",
+      "noSatisfiableOptions": "No hay credenciales que coincidan con esta solicitud.",
+      "requirementInfo": {
+        "title": "Solicitud de credenciales",
+        "description": "{{verifierName}} solicita acceso a tus credenciales de identidad para verificar tu identidad y abrir tu cuenta de forma segura.",
+        "requiredTitle": "Tarjetas obligatorias",
+        "requiredDescription": "Estas tarjetas se incluyen en la(s) solicitud(es) obligatoria(s) del verificador. Sigue las instrucciones de selección que se muestran en cada solicitud para continuar.",
+        "optionalTitle": "Tarjetas opcionales",
+        "optionalDescription": "Estas tarjetas se incluyen en la(s) solicitud(es) opcional(es) del verificador. Puedes elegir si quieres compartirlas.",
+        "footerNote": "Solo se compartirá con el verificador la información solicitada de las tarjetas que selecciones. Revisa tu selección antes de confirmar.",
+        "close": "Cerrar",
+        "securityFooter": "Cifrado de extremo a extremo · Verificado por {{verifierName}}",
+        "requiredAriaLabel": "Más información sobre las credenciales obligatorias",
+        "optionalAriaLabel": "Más información sobre las credenciales opcionales"
+      }
+    }
+  },
+  "CredentialRequestModal": {
+    "loading": {
+      "title": "Cargando credenciales",
+      "message": "Espera mientras obtenemos tus credenciales disponibles..."
+    },
+    "header": {
+      "title": "{{verifierName}} solicita estas credenciales",
+      "description": "Selecciona las credenciales que quieres compartir"
+    },
+    "error": {
+      "title": "Error al cargar las credenciales",
+      "walletIdMessage": "Asegúrate de haber iniciado sesión y de haber desbloqueado tu cartera."
+    },
+    "buttons": {
+      "cancel": "Cancelar",
+      "consentShare": "Doy mi consentimiento y comparto"
+    }
+  },
+  "SDClaimsSelectionModal": {
+    "subtitle": "Vista previa de la credencial · selecciona los campos que quieres compartir",
+    "subtitleReadOnly": "Vista previa de la credencial · se compartirán todos los campos",
+    "confirmProceed": "Confirmar y continuar",
+    "done": "Hecho",
+    "disclosableFields": "INFORMACIÓN divulgable",
+    "defaultShareable": "Información compartida de forma predeterminada",
+    "defaultShareableNote": "Incluida · no se puede deseleccionar.",
+    "checkAll": "Seleccionar todo",
+    "clearAll": "Borrar todo",
+    "credentialPreview": "Vista previa de la credencial",
+    "shareableFields": "Campos que se pueden compartir",
+    "previewUnavailable": "La vista previa no está disponible para esta credencial.",
+    "fieldsCount": "{{count}} campos",
+    "expand": "Expandir",
+    "collapse": "Contraer"
+  },
+  "NoMatchingCredentialsModal": {
+    "title": "¡No se han encontrado las tarjetas necesarias!",
+    "claimsIntro": "Tu cartera no contiene todas las tarjetas o la información necesarias para completar la solicitud del verificador.",
+    "missingInfoLabel": "Información que falta:",
+    "showMore": "Mostrar más (+{{count}})",
+    "whatYouCanDo": "QUÉ PUEDES HACER",
+    "verifierHelp": "Ponte en contacto con este verificador para obtener más información sobre qué tarjetas se necesitan para continuar.",
+    "matchingCards": "TARJETAS QUE COINCIDEN PARCIALMENTE",
+    "goToHomeButton": "Ir al inicio",
+    "continueWithAvailableButton": "Continuar con las tarjetas disponibles",
+    "trustedLabel": "De confianza",
+    "unknownVerifier": "Verificador desconocido"
+  },
+  "MissingClaimsListModal": {
+    "title": "Información que falta",
+    "requiredCount": "{{count}} obligatorios"
+  },
+  "LogoutConfirmation": {
+    "title": "¿Salir de Inji Wallet?",
+    "message": "Si vuelves atrás ahora, se cerrará tu sesión. Tendrás que iniciar sesión de nuevo para continuar. ¿Seguro que quieres salir?",
+    "logoutButton": "Sí, cerrar sesión",
+    "stayButton": "Permanecer en esta página"
+  },
+  "LanguageSelector": {
+    "title": "Elegir idioma",
+    "subTitle": "Selecciona tu configuración de idioma preferida."
+  },
+  "AboutPlatform": {
+    "button": "Acerca de la plataforma",
+    "hero": {
+      "title": "Tu identidad digital, simplificada",
+      "subTitle": "Guarda, gestiona y comparte tus credenciales verificadas de forma segura, todo en un mismo lugar.",
+      "highlights": {
+        "encryption": "Cifrado de nivel bancario",
+        "offline": "Funciona sin conexión",
+        "ownership": "Tú controlas tus datos"
+      },
+      "compatibility": {
+        "label": "Compatibilidad",
+        "title": "Ejemplos de tipos de credenciales admitidos",
+        "types": {
+          "nationalIds": "Documentos nacionales de identidad",
+          "driversLicenses": "Permisos de conducir",
+          "professionalLicenses": "Licencias profesionales",
+          "passports": "Pasaportes",
+          "insuranceCards": "Tarjetas de seguro",
+          "diplomas": "Diplomas y títulos"
+        }
+      }
+    },
+    "howItWorks": {
+      "label": "Cómo funciona",
+      "steps": {
+        "receive": {
+          "title": "Recibe tarjetas",
+          "description": "Emisores de confianza como gobiernos, universidades o empleadores entregan credenciales verificadas directamente en tu cartera. Sin introducir datos a mano y sin papeleo."
+        },
+        "store": {
+          "title": "Guarda de forma segura",
+          "description": "Todas las credenciales se cifran de extremo a extremo y se almacenan localmente. ¡Solo tú tienes las claves! Ningún tercero puede acceder a tus tarjetas ni modificarlas."
+        },
+        "share": {
+          "title": "Comparte y verifica",
+          "description": "Presenta tus credenciales mediante código QR o compartiéndolas directamente. Los verificadores confirman su autenticidad criptográficamente, sin necesidad de contactar con el emisor y funciona sin conexión."
+        }
+      }
+    }
+  }
+}
